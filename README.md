@@ -5,15 +5,15 @@ Various analysis performed to predict the performance of stocks/commodities/indi
 
 Small Cap
 
-Small cap is a term used to classify companies with a relatively small market capitalization. A company's market capitalization is the market value of its outstanding shares. In India, normally a company below market capitalization of Rs.5000 crores(USD 1 Billion) is classified as small cap company. One can expect a relatively high volatility in Small Cap companies.
+Small cap is a term used to classify companies with a relatively small market capitalization. A company's market capitalization is the market value of its outstanding shares. In India, normally a company below market capitalization of (USD 1 Billion) is classified as small cap company. One can expect a relatively high volatility in Small Cap companies.
 
 Mid Cap
 
-A mid-cap company is a company with market capitalization above Rs.5000 crores(USD 1 Billion) and less than Rs.20000 crores(USD 4 Billion) . As the name implies, a mid-cap company falls in the middle of the pack between large-cap and small-cap companies, considered to be a safer investment than small cap companies at the cost larger possible gains.
+A mid-cap company is a company with market capitalization above (USD 1 Billion) and less than (USD 4 Billion) . As the name implies, a mid-cap company falls in the middle of the pack between large-cap and small-cap companies, considered to be a safer investment than small cap companies at the cost larger possible gains.
 
 Large Cap (Blue Chip)
 
-Large cap is a shortened version of the term “large market capitalization.” In India, normally companies with the market capitalization higher than Rs.20,000 crores or USD 4 Billion are considered as Large cap companies. Considered to be the safest of all equities, with very rare 'big' moves.
+Large cap is a shortened version of the term “large market capitalization.” In India, normally companies with the market capitalization higher than USD 4 Billion are considered as Large cap companies. Considered to be the safest of all equities, with very rare 'big' moves.
 
 	
 Crude Oil
