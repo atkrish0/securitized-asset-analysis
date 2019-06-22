@@ -30,3 +30,22 @@ Nifty
 Nifty is the reference index which is referred to by the investors on a daily basis. The direction of Nifty represents the trend of the market and most stocks tend to move in its direction. In short, Nifty is a benchmark index which comprises of 50 companies from 13 different sectors. These 50 companies are among the largest companies in India and are a proxy for the performance of Indian economy
 
 
+# Analysis:
+
+### I : Rudimentary exploration of the dataset using pandas.
+
+1. Importing and analyzing the data using basic pandas functionality and pandas profile reporting.
+
+2. Segregated the data for the past 3 month alone, to get a focused view.
+
+3. Formatted Data column to datetime64[ns] dtype for future convenience.
+
+4. Calculated the monthwise VWAP (Volume Weighted Average Price ) of the stock.
+
+5. Tabulated Average closing price and P/L percentage for each date.
+
+6. Tabulated additional column with daily percent change values of closing price.
+
+7. Appended trend metadata (bull run, bear drop, positive, negative, et al.) based on the daily percentage values.
+
+8. Calculated average and median values of traded volumes grouped by trend metadata.
