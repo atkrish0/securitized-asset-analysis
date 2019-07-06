@@ -8,7 +8,7 @@ Various analysis performed to predict the performance of stocks/commodities/indi
 * Gold
 * Nifty Index
 
-# Analysis:
+# Executive Summary of the Analysis:
 
 ### I : Rudimentary EDA
 
@@ -38,16 +38,15 @@ Various analysis performed to predict the performance of stocks/commodities/indi
 
 ### III : Regression - Beta Calculation
 
-1. Data ingestion, Profile report
-2. Summary Stats
-3. Histogram of the GOLD frame.
-4. Regressed OHLC values with 'Pred' & 'new', with statsmodel.api
-5. New column in main frame based on OLS regression values obtained.
-6. Feature elimination based on correlation and P values
-7. Polynomial feature preprocessing for quadratic
-8. CAPM and Beta Calculation
-9. Superimposing stock daily percentage changes with Nifty index.
-10. Separate frame computed for monthly returns. Beta computed. Compared with daily returns.
+1. Data ingestion, Profile report, Summary Stats
+2. Histogram of the GOLD frame.
+3. Regressed OHLC values with 'Pred' & 'new', with statsmodel.api
+4. New column in main frame based on OLS regression values obtained.
+5. Feature elimination based on correlation and P values
+6. Polynomial feature preprocessing for quadratic
+7. CAPM and Beta Calculation
+8. Superimposing stock daily percentage changes with Nifty index.
+9. Separate frame computed for monthly returns. Beta computed. Compared with daily returns.
 
 ### IV : Algorithmic Trading using Classification
 
@@ -59,3 +58,15 @@ Various analysis performed to predict the performance of stocks/commodities/indi
 6. Computed evaluation metrics, such as: accuracy score, classification report, confusion matrix, and ROC curve; for all the above.
 7. Created new columns based on 5 day roling mean & standard deviation, and percentage change in OHLC values.
 8. Hyperparameter Tuning using RandomizedSearchCV and GridSearchCV for better ROC AUC score.
+
+### V : Efficient Frontier
+
+1. Calculated daily returns based on the percentage chage in adjusted close price.
+2. Computed annualized mean, standard deviation, and the sharpe ratio.
+3. Created a mixed portfolio of mid and large cap equities.
+4. Computed mean daily returns, covariance matrix, and volatility.
+5. Assigned a random weight for each equity and compute portfolio return, portfolio volatility and porfolio sharpe ratio.
+6. Created a frame based on the above computation.
+7. Finding the optimal values of maximum sharpe ratio and minimum volatility.
+8. Scatter plotted the Efficient Frontier.
+9. Assigned a percentage value of occupancy of the portfolio for each equity.
