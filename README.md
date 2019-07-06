@@ -10,22 +10,15 @@ Various analysis performed to predict the performance of stocks/commodities/indi
 
 # Analysis:
 
-### I : Rudimentary exploration of the dataset using pandas.
+### I : Rudimentary EDA
 
 1. Imported and analyzed the data using basic pandas functionality and pandas profile reporting.
-
 2. Segregated the data for the past 3 month alone, to get a focused view.
-
 3. Formatted Data column to datetime64[ns] dtype for future convenience.
-
 4. Calculated the monthwise VWAP (Volume Weighted Average Price ) of the stock.
-
 5. Tabulated Average closing price and P/L percentage for each date.
-
 6. Tabulated additional column with daily percent change values of closing price.
-
 7. Appended trend metadata (bull run, bear drop, positive, negative, et al.) based on the daily percentage values.
-
 8. Calculated average and median values of traded volumes grouped by trend metadata.
 
 ### II : Data Visualization
