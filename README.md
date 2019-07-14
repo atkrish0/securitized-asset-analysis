@@ -75,3 +75,4 @@ Various analysis performed to predict the performance of stocks/commodities/indi
 
 1. Using the Glob library to consolidate the datasets for the equity portfolio.
 2. Summary Statistics using Pandas Profiling.
+3. Plotting the Spearman and Pearson Correlation Maps.
