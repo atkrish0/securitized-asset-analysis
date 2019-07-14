@@ -74,3 +74,4 @@ Various analysis performed to predict the performance of stocks/commodities/indi
 ### VI : Clustering for Diversification
 
 1. Using the Glob library to consolidate the datasets for the equity portfolio.
+2. Summary Statistics using Pandas Profiling.
