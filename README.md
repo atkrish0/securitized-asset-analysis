@@ -72,3 +72,5 @@ Various analysis performed to predict the performance of stocks/commodities/indi
 9. Assigned a percentage value of occupancy of the portfolio for each equity.
 
 ### VI : Clustering for Diversification
+
+1. Using the Glob library to consolidate the datasets for the equity portfolio.
