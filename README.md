@@ -70,3 +70,5 @@ Various analysis performed to predict the performance of stocks/commodities/indi
 7. Finding the optimal values of maximum sharpe ratio and minimum volatility.
 8. Scatter plotted the Efficient Frontier.
 9. Assigned a percentage value of occupancy of the portfolio for each equity.
+
+### VI : Clustering for Diversification
