@@ -76,3 +76,6 @@ Various analysis performed to predict the performance of stocks/commodities/indi
 1. Using the Glob library to consolidate the datasets for the equity portfolio.
 2. Summary Statistics using Pandas Profiling.
 3. Plotting the Spearman and Pearson Correlation Maps.
+4. Calculating Returns and Volatility for the portfolio.
+5. Computing Optimal k value for KMeans Clustering using the Elbow Method.
+6. Applying KMeans Algorithm to cluster.
