@@ -63,19 +63,19 @@ Various analysis performed to predict the performance of stocks/commodities/indi
 
 1. Calculated daily returns based on the percentage chage in adjusted close price
 2. Computed annualized mean, standard deviation, and the sharpe ratio
-3. Created a mixed portfolio of mid and large cap equities.
-4. Computed mean daily returns, covariance matrix, and volatility.
-5. Assigned a random weight for each equity and compute portfolio return, portfolio volatility and porfolio sharpe ratio.
-6. Created a frame based on the above computation.
-7. Finding the optimal values of maximum sharpe ratio and minimum volatility.
-8. Scatter plotted the Efficient Frontier.
-9. Assigned a percentage value of occupancy of the portfolio for each equity.
+3. Created a mixed portfolio of mid and large cap equities
+4. Computed mean daily returns, covariance matrix, and volatility
+5. Assigned a random weight for each equity and compute portfolio return, portfolio volatility and porfolio sharpe ratio
+6. Created a frame based on the above computation
+7. Finding the optimal values of maximum sharpe ratio and minimum volatility
+8. Scatter plotted the Efficient Frontier
+9. Assigned a percentage value of occupancy of the portfolio for each equity
 
 ### VI : Clustering for Diversification
 
-1. Using the Glob library to consolidate the datasets for the equity portfolio.
-2. Summary Statistics using Pandas Profiling.
-3. Plotting the Spearman and Pearson Correlation Maps.
-4. Calculating Returns and Volatility for the portfolio.
-5. Computing Optimal k value for KMeans Clustering using the Elbow Method.
-6. Applying KMeans Algorithm to cluster.
+1. Using the Glob library to consolidate the datasets for the equity portfolio
+2. Summary Statistics using Pandas Profiling
+3. Plotting the Spearman and Pearson Correlation Maps
+4. Calculating Returns and Volatility for the portfolio
+5. Computing Optimal k value for KMeans Clustering using the Elbow Method
+6. Applying KMeans Algorithm to cluster
