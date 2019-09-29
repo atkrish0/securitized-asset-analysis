@@ -1,4 +1,4 @@
-# Analysis-on-Securitized-Assets
+# Securitized-Asset-Analysis
 Various analysis performed to predict the performance of stocks/commodities/indices
 
 # Assets under consideration:
@@ -8,7 +8,7 @@ Various analysis performed to predict the performance of stocks/commodities/indi
 * Gold
 * Nifty Index
 
-# Executive Summary of the Analysis:
+# Executive Summary:
 
 ### I : Rudimentary EDA
 
