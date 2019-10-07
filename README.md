@@ -40,12 +40,12 @@ Various analysis performed to predict the performance of stocks/commodities/indi
 
 1. Data ingestion, Profile report, Summary Stats
 2. Histogram of the GOLD frame
-3. Regressed OHLC values with 'Pred' & 'new', with statsmodel.api
+3. Regressed OHLC values with 'Pred' & 'new', with statsmodels library.
 4. New column in main frame based on OLS regression values obtained
 5. Feature elimination based on correlation and P values
-6. Polynomial feature preprocessing for quadratic
+6. Polynomial feature preprocessing
 7. CAPM and Beta Calculation
-8. Superimposing stock daily percentage changes with Nifty index
+8. Superimposed stock daily percentage changes with Nifty index
 9. Separate frame computed for monthly returns. Beta computed. Compared with daily returns
 
 ### IV : Algorithmic Trading using Classification
@@ -78,4 +78,4 @@ Various analysis performed to predict the performance of stocks/commodities/indi
 3. Plotting the Spearman and Pearson Correlation Maps
 4. Calculating Returns and Volatility for the portfolio
 5. Computing Optimal k value for KMeans Clustering using the Elbow Method
-6. Applying KMeans Algorithm to cluster
+6. Applying KMeans Algorithm to cluster the portfolio
