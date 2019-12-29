@@ -13,7 +13,7 @@ Various analysis performed to predict the performance of stocks/commodities/indi
 ### I : Rudimentary EDA
 
 1. Imported and analyzed the data using basic pandas functionality and pandas profile reporting
-2. Segregated the data for the past 3 month alone, to get a focused view
+2. Segregated the data for the past 3 months alone, to get a focused view
 3. Formatted Data column to datetime64[ns] dtype for future convenience
 4. Calculated the monthwise VWAP (Volume Weighted Average Price ) of the stock
 5. Tabulated Average closing price and P/L percentage for each date
@@ -31,7 +31,7 @@ Various analysis performed to predict the performance of stocks/commodities/indi
 6. Plotted a histogram of daily return percentages with frequencies of various values of percentage change
 7. Imported price action data for 5 stocks, extracted close price for each, and created a separate dataframe
 8. Used seaborn to plot the correlogram for the data
-9. The 7 day rolling average of the percentage change was calculated, thus deriving volatility. Standard deviation was calculated and plotted
+9. The 7 day rolling average of the percent change was calculated. Standard deviation was calculated and plotted, thus deriving volatility
 10. Volatility of NIFTY50 index was calculated, and the plot was superimposed to the volatility plot of the previously chosen stock
 11. 21 and 34 day moving averages were calculated and plotted. Trade call should be BUY whenever the smaller moving average (21) crosses over longer moving average (34) and the call should be SELL whenever smaller moving average crosses under longer moving average
 12. Bollinger Bands were plotted using 14 day rolling averages and std deviations
@@ -39,7 +39,7 @@ Various analysis performed to predict the performance of stocks/commodities/indi
 ### III : Regression - Beta Calculation
 
 1. Data ingestion, Profile report, Summary Stats
-2. Histogram of the GOLD frame
+2. Histogram of the GOLD dataframe
 3. Regressed OHLC values with 'Pred' & 'new', with statsmodels library.
 4. New column in main frame based on OLS regression values obtained
 5. Feature elimination based on correlation and P values
