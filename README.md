@@ -1,5 +1,6 @@
 # Securitized-Asset-Analysis
 Various analysis performed to predict the performance of stocks/commodities/indices
+(Citigroup Virtual Internship)
 
 # Assets under consideration:
 
